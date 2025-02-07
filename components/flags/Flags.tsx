@@ -10,18 +10,18 @@ const flagsImages = [
         country: "Panama",
         url: "/img/flags/panama.png",
     },
-    {
-        country: "Estados unidos",
-        url: "/img/flags/eeuu.png",
-    },
+    // {
+    //     country: "Estados unidos",
+    //     url: "/img/flags/eeuu.png",
+    // },
     {
         country: "Mexico",
         url: "/img/flags/mexico.png",
     },
-    {
-        country: "Salvador",
-        url: "/img/flags/salvador.png",
-    }
+    // {
+    //     country: "Salvador",
+    //     url: "/img/flags/salvador.png",
+    // }
 ]
 
 export default function Flags() {

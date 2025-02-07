@@ -17,7 +17,7 @@ export default function Vision() {
                 </div>
                 <div className='w-full p-2'>
                     <p className='text-base md:text-3xl text-justify text-[#00365f]'>
-                        Ser un grupo de inversión orientado a la gente, desarrollando proyectos innovadores que transciendan y que impacten la calidad de vida de las personas, conectando con nuestros clientes con soluciones diferenciales a través del mejor talento humano, tecnología, crando relaciones duraderas y sostenibles.
+                        Ser un grupo de inversión orientado a la gente, desarrollando proyectos innovadores que transciendan y que impacten la calidad de vida de las personas, conectando con nuestros clientes con soluciones diferenciales a través del mejor talento humano y tecnología, creando relaciones duraderas y sostenibles.
                     </p>
                 </div>
             </div>

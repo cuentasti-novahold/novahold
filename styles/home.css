@@ -1,0 +1,25 @@
+/* Servicios */
+.body-carrusel {
+  position: relative;
+  margin: 0;
+  padding: 20px;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #00365f;
+  color: #FFFFFF;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}

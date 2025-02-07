@@ -22,7 +22,9 @@ export default function Banner() {
                         />
                         <div className='flex flex-col md:flex-row md:gap-5 text-white'>
                             <h1 className='text-2xl font-semibold'>Contacto</h1>
-                            <h1 className='text-2xl font-semibold'>Servicios</h1>
+                            <a href="#servicios-section">
+                                <h1 className='text-2xl font-semibold'>Servicios</h1>
+                            </a>
                         </div>
                     </div>
                     <div className='flex flex-col md:flex-row justify-center items-center gap-2 md:gap-10 p-5 text-white'>
