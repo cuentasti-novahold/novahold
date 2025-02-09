@@ -12,6 +12,7 @@ export default function Servicios() {
     return (
         <>
             <div id="servicios-section">
+                <h1 className="text-center text-4xl font-bold mb-6 text-[#17af95]">Nuestros servicios</h1>
                 <Swiper
                     className="text-center body-carrusel"
                     effect={"coverflow"}
