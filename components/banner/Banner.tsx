@@ -7,22 +7,24 @@ export default function Banner() {
             <div className="relative w-full h-screen overflow-hidden">
                 <Image
                     className="object-cover"
-                    layout="fill"
-                    src="/img/principal-page/banner.png"
+                    fill={true}
+                    src="/img/principal-page/banner.webp"
                     alt="banner"
                 />
                 <div className="absolute flex flex-col justify-between inset-0 z-20">
                     <div className="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between gap-2 md:gap-0 m-10">
                         <Image
-                            className="object-cover"
-                            width={200}
-                            height={200}
+                             style={{ width: "auto", height: "auto" }}
+                             width={200}
+                             height={200}
                             src="/img/principal-page/logo-banner.png"
                             alt="banner"
                         />
                         <div className='flex flex-col md:flex-row md:gap-5 text-white'>
-                            <h1 className='text-2xl font-semibold'>Contacto</h1>
-                            <a href="#servicios-section">
+                            <a href="#form-contact">
+                                <h1 className='text-2xl font-semibold'>Contacto</h1>
+                            </a>
+                            <a href="#services-section">
                                 <h1 className='text-2xl font-semibold'>Servicios</h1>
                             </a>
                         </div>

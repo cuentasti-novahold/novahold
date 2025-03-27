@@ -10,7 +10,7 @@ const flagsImages = [
         country: "Panama",
         url: "/img/flags/panama.png",
     },
-    // {
+    // { 
     //     country: "Estados unidos",
     //     url: "/img/flags/eeuu.png",
     // },
@@ -32,16 +32,14 @@ export default function Flags() {
                 <div className="flex justify-center items-center w-full py-3">
                     <div className="w-full flex flex-col md:flex-row justify-center overflow-x-hidden">
                         {flagsImages.map((flag, index) => (
-                            <div
-                                key={index}
-                                className="flex flex-col items-center justify-center flex-shrink-0 mx-4"
-                            >
+                            <div key={index} className="flex flex-col items-center justify-center flex-shrink-0 mx-4">
                                 <Image
-                                    src={flag.url}
-                                    alt={`Bandera de ${flag.country}`}
+                                    style={{ width: "200px", height: "150px" }}
+                                    className="object-contain rounded-2xl shadow-xl mb-4"
                                     width={200}
                                     height={150}
-                                    className="object-contain rounded-2xl shadow-xl mb-4"
+                                    src={flag.url}
+                                    alt={`Bandera de ${flag.country}`}
                                 />
                             </div>
                         ))}
@@ -51,3 +49,4 @@ export default function Flags() {
         </>
     )
 }
+
