@@ -111,7 +111,7 @@ export default function Services() {
                                 src="/img/servicios/transformacion.svg"
                                 alt="Transformación digital"
                             />
-                            <h1 className='md:text-xl font-semibold'>Transformación digital</h1>
+                            <h1 className='md:text-xl font-semibold'>Transformación del talento humano</h1>
                         </div>
                     </SwiperSlide>
 

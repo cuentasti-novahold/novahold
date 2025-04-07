@@ -5,12 +5,13 @@ import { sendEmail } from "@/lib/brevo"
 export async function handleForm(formData: FormData) {
 
     const name = formData.get('name_user');
+    const countryCode = formData.get('country_code');
     const phone = formData.get('phone_user');
     const email = formData.get('email_user');
     const motivo = formData.get('motivo');
     const message = formData.get('message');
 
-    if (!name || !phone || !email || !motivo || !message) {
+    if (!name || !countryCode || !phone || !email || !motivo) {
         return {
             success: false,
             message: "Por favor, llene todos los campos",
@@ -37,6 +38,7 @@ export async function handleForm(formData: FormData) {
         htmlContent: [
             {
                 name: name as string,
+                countryCode: countryCode as string,
                 phone: phone as string,
                 email: email as string,
                 motivo: motivo_contacto as string,

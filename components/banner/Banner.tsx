@@ -8,8 +8,11 @@ export default function Banner() {
                 <Image
                     className="object-cover"
                     fill={true}
-                    src="/img/principal-page/banner.webp"
+                    // width={16667}
+                    // height={8363}
+                    src="/img/principal-page/bannerr.png"
                     alt="banner"
+                    priority
                 />
                 <div className="absolute flex flex-col justify-between inset-0 z-20">
                     <div className="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between gap-2 md:gap-0 m-10">

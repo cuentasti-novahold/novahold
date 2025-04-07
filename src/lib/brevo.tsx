@@ -11,6 +11,7 @@ interface Params {
     subject: string;
     htmlContent: {
         name: string,
+        countryCode: string,
         phone: string,
         email: string,
         motivo: string,
@@ -34,6 +35,7 @@ if (!subject || !htmlContent || htmlContent.length === 0) {
     const htmlBody = htmlContent
         .map((content) =>  `
             <p><strong>Nombre:</strong> ${content.name}</p>
+            <p><strong>Código de país:</strong> ${content.countryCode}</p>
             <p><strong>Telefono:</strong> ${content.phone}</p>
             <p><strong>Contacto:</strong> ${content.email}</p>
             <p><strong>Mensaje:</strong> ${content.message}</p>
