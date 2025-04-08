@@ -60,14 +60,14 @@ export default function Contact() {
 
                     {/* Bloque 1 Eslogan*/}
                     <div className="flex justify-center items-center md:items-center w-full py-24 px-4 md:px-10">
-                        <p className="text-xl md:text-2xl 1440:text-3xl text-justify">
-                            Inversión con propósito, <span className="italic font-bold">transformamos ideas en soluciones</span> que aportan en el crecimiento de nuestros clientes, socios y filiales.
+                        <p className="text-xl md:text-2xl 1440:text-3xl text-center">
+                            Inversión con propósito, <span className="font-bold">transformamos ideas en soluciones</span> que aportan en el crecimiento de nuestros clientes, socios y filiales.
                         </p>
                     </div>
 
                     {/* Bloque 2 Siguenos */}
-                    <div className="flex flex-col justify-center items-center mb-6 w-full gap-4">
-                        <h1 className='text-lg'>Síguenos en Linkedin:</h1>
+                    <div className="flex flex-col justify-center items-center mb-6 w-full ">
+                        <h1 className='text-lg mb-2'>Síguenos en Linkedin:</h1>
                         <div className="flex flex-row items-center gap-2">
                             <Link href="https://www.linkedin.com/company/novahold-enterprises/" passHref legacyBehavior>
                                 <a target="_blank" rel="noopener noreferrer">
@@ -75,19 +75,23 @@ export default function Contact() {
                                         width={40}
                                         height={100}
                                         src="/img/principal-page/linkedin.png"
-                                        alt="Logo novahold Footer"
+                                        alt="Logo linkedin"
                                     />
                                 </a>
                             </Link>
-                            <p>Novahold Enterprises</p>
+                            <Link href="https://www.linkedin.com/company/novahold-enterprises/" passHref legacyBehavior>
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <p>Novahold Enterprises</p>
+                                </a>
+                            </Link>
                         </div>
-                        <h1 className="text-lg">Escríbenos:</h1>
+                        <h1 className="text-lg mt-4 mb-1.5">Escríbenos:</h1>
                         <div className="flex flex-row items-center gap-2">
                             <Image
                                 width={40}
                                 height={100}
                                 src="/img/principal-page/email.png"
-                                alt="Logo novahold Footer"
+                                alt="Logo correo"
                             />
                             <Link href="mailto:contacto@novahold.com" className="hover:underline">
                                 <p> contacto@novahold.com </p>
@@ -96,7 +100,7 @@ export default function Contact() {
                     </div>
 
                     {/* Bloque 3 Avisos */}
-                    <div className="flex flex-row justify-center items-end w-full px-2 344:px-0 py-4 gap-4 344:gap-2 344:text-sm">
+                    <div className="flex flex-row justify-center items-end w-full px-2 344:px-0 py-4 gap-4 344:gap-2 md:gap-10 344:text-sm">
                         <a href="../docs/aviso-de-privacidad.pdf" target="_blank">
                             Aviso de privacidad
                         </a>
