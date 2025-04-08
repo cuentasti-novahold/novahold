@@ -10,7 +10,7 @@ export default function Banner() {
                     fill={true}
                     // width={16667}
                     // height={8363}
-                    src="/img/principal-page/bannerr.png"
+                    src="/img/principal-page/banner.webp"
                     alt="banner"
                     priority
                 />
@@ -32,7 +32,7 @@ export default function Banner() {
                             </a>
                         </div>
                     </div>
-                    <div className='flex flex-col md:flex-row justify-center items-center gap-2 md:gap-10 p-5 text-white'>
+                    <div className='flex flex-col xl:flex-row justify-center items-center gap-2 md:gap-10 p-5 text-white'>
                         <h1 className='text-lg md:text-3xl font-semibold'>Ética</h1>
                         <h1 className='text-lg md:text-3xl font-semibold'>Pasión</h1>
                         <h1 className='text-lg md:text-3xl font-semibold'>Innovación</h1>

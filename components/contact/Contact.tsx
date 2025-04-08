@@ -56,66 +56,56 @@ export default function Contact() {
             <div id="form-contact" className="flex flex-col md:flex-row justify-center items-center mt-10 w-full overflow-hidden">
 
                 {/* Eslogan */}
-                <div className="flex flex-col w-full h-screen text-white bg-[#00365f]">
+                <div className="flex flex-col w-full text-white bg-[#00365f]">
 
-                    {/* Bloque 1*/}
-                    <div className="flex justify-center items-center md:items-end w-full h-1/2 xl:h-1/2 px-4 md:px-10">
-                        <p className="text-xl md:text-2xl 1440:text-3xl md:mb-6 1440:mb-20 text-justify">
+                    {/* Bloque 1 Eslogan*/}
+                    <div className="flex justify-center items-center md:items-center w-full py-24 px-4 md:px-10">
+                        <p className="text-xl md:text-2xl 1440:text-3xl text-justify">
                             Inversión con propósito, <span className="italic font-bold">transformamos ideas en soluciones</span> que aportan en el crecimiento de nuestros clientes, socios y filiales.
                         </p>
                     </div>
 
-                    {/* Bloque 2 */}
-                    <div className="flex flex-col w-full border-t-[0.1rem] border-white md:border-t-0">
-                        {/* Siguenos */}
-                        <div className="flex flex-col justify-center items-center p-10 w-full gap-3">
-                            <h1 className='text-lg mt-4 1366:mt-0 1440:mt-6'>
-                                Síguenos en Linkedin:
-                            </h1>
-                            <div className="flex flex-row items-center gap-2">
-                                <Link href="https://www.linkedin.com/company/novahold-enterprises/" passHref legacyBehavior>
-                                    <a target="_blank" rel="noopener noreferrer">
-                                        <Image
-                                            className=""
-                                            width={40}
-                                            height={100}
-                                            src="/img/principal-page/linkedin.png"
-                                            alt="Logo novahold Footer"
-                                        />
-                                    </a>
-                                </Link>
-                                <p className="font-semibold">Novahold Enterprises</p>
-                            </div>
-                            <h1 className="text-lg">Escríbenos:</h1>
-                            <div className="flex flex-row items-center gap-2">
-                                <Image
-                                    width={40}
-                                    height={100}
-                                    src="/img/principal-page/email.png"
-                                    alt="Logo novahold Footer"
-                                />
-                                <p className="">
-                                    <Link href="mailto:contacto@novahold.com" className="hover:underline">
-                                        contacto@novahold.com
-                                    </Link>
-                                </p>
-                            </div>
+                    {/* Bloque 2 Siguenos */}
+                    <div className="flex flex-col justify-center items-center mb-6 w-full gap-4">
+                        <h1 className='text-lg'>Síguenos en Linkedin:</h1>
+                        <div className="flex flex-row items-center gap-2">
+                            <Link href="https://www.linkedin.com/company/novahold-enterprises/" passHref legacyBehavior>
+                                <a target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        width={40}
+                                        height={100}
+                                        src="/img/principal-page/linkedin.png"
+                                        alt="Logo novahold Footer"
+                                    />
+                                </a>
+                            </Link>
+                            <p>Novahold Enterprises</p>
                         </div>
-                        {/* Terminos y condiciones */}
-                        <div className="flex flex-row justify-center items-end w-full h-1/2 mt-6 md:mt-0 1366:mt-0 1440:mt-6 px-2 py-4 gap-4 md:border-t-[0.1rem] md:border-white">
-                            <a href="../docs/aviso-de-privacidad.pdf" target="_blank" className='font-bold'>
-                                Aviso de privacidad
-                            </a>
-
-                            <a href="../docs/terminos-y-condiciones.pdf" target="_blank" className='font-bold'>
-                                Términos y condiciones
-                            </a>
+                        <h1 className="text-lg">Escríbenos:</h1>
+                        <div className="flex flex-row items-center gap-2">
+                            <Image
+                                width={40}
+                                height={100}
+                                src="/img/principal-page/email.png"
+                                alt="Logo novahold Footer"
+                            />
+                            <Link href="mailto:contacto@novahold.com" className="hover:underline">
+                                <p> contacto@novahold.com </p>
+                            </Link>
                         </div>
                     </div>
 
+                    {/* Bloque 3 Avisos */}
+                    <div className="flex flex-row justify-center items-end w-full px-2 344:px-0 py-4 gap-4 344:gap-2 344:text-sm">
+                        <a href="../docs/aviso-de-privacidad.pdf" target="_blank">
+                            Aviso de privacidad
+                        </a>
+
+                        <a href="../docs/terminos-y-condiciones.pdf" target="_blank">
+                            Términos y condiciones
+                        </a>
+                    </div>
                 </div>
-
-
 
                 {/* Formulario de contacto */}
                 <div className='flex flex-col justify-center items-center p-6 w-full h-full'>
