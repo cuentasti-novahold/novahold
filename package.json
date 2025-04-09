@@ -9,13 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@getbrevo/brevo": "^2.2.0",
+    "aos": "^2.3.4",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
     "swiper": "^11.2.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
